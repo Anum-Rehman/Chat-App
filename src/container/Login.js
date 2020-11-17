@@ -7,17 +7,17 @@ const Login = ({ mainHeading }) => {
   return (
     <View style={styles.container}>
       <LinearGradient style={styles.gradientContainer}
-        colors={['#f8fcfc', '#0b64dd']}
+        colors={['#ffffff', '#0e2a5e']}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}
       >
         <WavyHeader
           customStyles={styles.svgCurve}
-          customBgColor="#0099ff"
+          customBgColor="#023864"
           customWavePattern="M380.279 107.377C380.279 107.377 295.739 13.1031 187.625 107.25C79.5108 201.397 -1.97128 107.125 -1.97128 107.125L-1.89778 1.07516e-06L380.353 0.252415L380.279 107.377Z"
         />
         <View style={styles.headerContainer}>
-        <Image source={require('../../public/images/HRK-LOGO-PNG-01.png')} style={{width: 350, height: 50}}/>
+        <Image source={require('../../public/images/HRK-LOGO-PNG-01.png')} style={{width: 350, height: 80}}/>
         </View>
         <MyCard 
           MainHead="Login"
